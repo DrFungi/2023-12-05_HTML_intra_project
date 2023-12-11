@@ -24,13 +24,13 @@
 }
 
 .icon {
-    width: 35px;
+    width: 1.2rem;
     border-radius: 50%;
 }
 
 .name {
     padding-left: 10px;
-    font-size: 35px;
+    font-size: 1.5rem;
     color: white;
     font-weight: 900;
     text-transform: uppercase;
@@ -44,12 +44,13 @@
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 600;
-    padding: 10px 15px;
+    padding: 0.2rem 0.35rem;
     border-radius: 5px;
     transition: 0.5s ease;
-    margin: 0px 10px;
+    /*margin: 0px 10px;*/
+    margin: 0rem 0.15rem;
 }
 
 .navbar ul li a:hover {
@@ -61,11 +62,10 @@
 
 
 
-/* lo que para el es vavbar, para mi es navbar
-lo que para el es menu, para mi es menu
+/* 
 
+Credits:
 https://www.youtube.com/watch?v=W-nIX17Gg-Q
 https://www.youtube.com/watch?v=aGY136vWjFo
 
-creo que tengo que hacer otro container para mi logo y nombre
 */
