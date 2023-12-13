@@ -30,7 +30,7 @@
 
 .name {
     padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 900;
     text-transform: uppercase;
@@ -44,7 +44,7 @@
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 0.2rem 0.35rem;
     border-radius: 5px;
@@ -57,11 +57,18 @@
     background-color: #63734b;
 }
 
+table, th, td {
+    border: 1px solid;
+    
+}
 
+.bold {
+    font-weight: 800;
+}
 
-
-
-
+.up_icon {
+    width: 35px;
+}
 /* 
 
 Credits:

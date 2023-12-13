@@ -8,19 +8,20 @@
 </head>
 <body>
    <header>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="/img/dbicon.png" alt="icon" class="icon">
-            <h1 class="name">David Villegas</h1>
-        </div>
-        <ul class="menu">
-            <li><a href="#">Oracle</a></li>
-            <li><a href="#">SQL Server</a></li>
-            <li><a href="#">Mongo DB</a></li>
-            <li><a href="#">PostgresSQL</a></li>
-            <li><a href="#">MySQL</a></li>
-        </ul>
-    </nav>
+        <a id="P1"></a>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/img/dbicon.png" alt="icon" class="icon">
+                <h1 class="name">David Villegas</h1>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Oracle</a></li>
+                <li><a href="#">SQL Server</a></li>
+                <li><a href="#">Mongo DB</a></li>
+                <li><a href="#">PostgresSQL</a></li>
+                <li><a href="#">MySQL</a></li>
+            </ul>
+        </nav>
    </header>
    <div class="oracle">
        <img src="/img/oracle-database-logo.png" alt="Oracle Database Icon">
@@ -40,8 +41,171 @@
         communications entre les réseaux.        
         La base de données Oracle est également connue sous le nom de SGBDR 
         Oracle et, parfois, simplement sous le nom d'Oracle.</p>
-        <img src="/img/Screenshot-Oracle.png" alt="Oracle Database Screenchot">
+        <img src="/img/Screenshot-Oracle.png" alt="Oracle Database Screenshot">
         <p><a href="https://www.oracle.com/ca-en/database/technologies/oracle19c-windows-downloads.html" target="_blank" rel="noopener noreferrer">oracle19c-windows-downloads</a></p>
+        <a href="#table">Tableau</a>
+        <ol>
+            <li class="bold">Fonctionnalités</li>
+            <ul>
+                <li>Sécurité des données : les données sont cryptées lorsqu'elles sont inactives (sur disque) avec l'algorithme AES 256 (Advanced Encryption Standard). Les données sont cryptées en mouvement (transfert de données entre l'application et Oracle NoSQL Database Cloud Service) à l'aide du protocole HTTPS.</li>
+                <li>Gestion totale sans aucune administration : les développeurs n'ont pas besoin d'administrer les serveurs de données, ni l'infrastructure et la sécurité sous-jacentes. Oracle assure la maintenance du matériel et des logiciels, ce qui permet aux développeurs de se concentrer sur la création d'applications.</li>
+                <li>Transactions compatibles ACID : les transactions ACID (Atomicité, Cohérence, Isolation, Durabilité) sont entièrement prises en charge pour les données que vous stockez dans Oracle NoSQL Database Cloud Service. Si nécessaire, la cohérence peut être assouplie en faveur d'une latence plus faible.</li>
+            </ul>
+            <li class="bold">Forces</li>
+            <ul>
+                <li>Norme SQl entièrement soutenu</li>
+                <li>Ce base de données est multiplatforme</li>
+                <li>Oracle est la base de données la plus utilisée au monde</li>
+            </ul>
+            <li class="bold">Limites</li>
+            <ul>
+                <li>Le cout est haut</li>
+                <li>Base de données qui n'est pas "Open Source"</li>
+                <li>Systeme de licence dificile à naviguer</li>
+            </ul>
+        </ol>
+        <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
+   </div>
+   <div class="MS_SQL_Server">
+       <img src="/img/MS_SQL_Server.png" alt="MS SQL Server Database Icon">
+       <p>Microsoft SQL Server est un système de gestion de base de données (SGBD) en langage SQL incorporant entre autres un SGBDR (SGBD relationnel ») développé et commercialisé par la société Microsoft. Il fonctionne sous les OS Windows et Linux (depuis mars 2016), mais il est possible de le lancer sur Mac OS via Docker, car il en existe une version en téléchargement sur le site de Microsoft.</p>
+        <img src="/img/Screenshot-MS_SQL_Server.png" alt="MS SQL Server Database Screenshot">
+        <p><a href="https://info.microsoft.com/ww-landing-sql-server-2022.html?culture=en-us&country=us" target="_blank" rel="noopener noreferrer">MS SQL Server-downloads</a></p>
+        <a href="#table">Tableau</a>
+        <ol>
+            <li class="bold">Fonctionnalités</li>
+            <ul>
+                <li>Certains des principaux atouts qui distinguent Microsoft SQL Server sont sa diversité d'outils dédiés à la gestion et à l'analyse des données, ainsi que l'intelligence d'affaires permettant d'obtenir des insights sur votre entreprise et vos clients, soutenue par l'apprentissage automatique</li>
+                <li>Microsoft SQL Server offre la possibilité d'intégrer facilement vos données dans des applications et de profiter d'un large éventail de services cognitifs pour exploiter l'intelligence artificielle à n'importe quelle échelle de données, que ce soit dans des environnements sur site ou dans le cloud, grâce à son intégration avec Azure AI.</li>
+                <li>En général, les serveurs SQL offrent à l'utilisateur une haute disponibilité pour permettre des processus de commutation plus rapides. Leurs capacités en mémoire permettent une flexibilité accrue et une facilité d'utilisation en offrant une intégration transparente avec la famille de serveurs Microsoft Server.</li>
+            </ul>
+            <li class="bold">Forces</li>
+            <ul>
+                <li>Amélioration de la sécurité des données : Il assure la sécurité de la base de données, en particulier avec le service d'administration de la base de données MS-SQL Server.</li>
+                <li>Facilité de configuration : Contrairement à d'autres systèmes de gestion de base de données, l'installation et la configuration sont plus simples.</li>
+                <li>Stockage de données optimisé : Aucun autre stockage de données n'est requis pour la même base de données lors de l'utilisation de différents appareils. Il permet également de résoudre les problèmes et de maintenir les données facilement.</li>
+            </ul>
+            <li class="bold">Limites</li>
+            <ul>
+                <li>Coût : Si vous souhaitez accéder à des fonctionnalités plus avancées et à des applications de base de données, vous pouvez investir dans des versions supérieures.</li>
+                <li>Compatibilité restreinte : Vous pouvez effectuer des investissements supplémentaires dans des logiciels Microsoft si vous souhaitez utiliser un peu d'infrastructure Microsoft, mais cela vous permettra d'utiliser Microsoft SQL Server sur votre plateforme.</li>
+                <li>Restriction matérielle : Vous pourriez avoir besoin d'une machine plus récente si votre matériel est d'une version plus ancienne, car les versions plus récentes de Microsoft SQL Server nécessitent des technologies avancées pour fonctionner.</li>
+            </ul>
+        </ol>
+        <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
+   </div>
+   <div class="Mongo DB">
+       <img src="/img/Mongodb-icon.png" alt="Mongo DB Icon">
+       <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and current versions are licensed under the Server Side Public License (SSPL). MongoDB is a member of the MACH Alliance.</p>
+        <img src="/img/Screenshot_MongoDB.png" alt="Mongo DB Screenshot">
+        <p><a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">Mongo DB-downloads</a></p>
+        <a href="#table">Tableau</a>
+        <ol>
+            <li class="bold">Fonctionnalités</li>
+            <ul>
+                <li>Modèle orienté document:
+                MongoDB a été créé pour s'adapter à l'esprit productif et flexible d'un développeur. 
+                Une façon d'atteindre cet objectif est de le rendre orienté document. Le modèle de document permet de stocker des données sous forme de documents regroupés en collections. Les documents sont autonomes, ce qui facilite la concentration des développeurs sur un ensemble de données particulier sans les diviser en tables.
+                MongoDB utilise également le format BSON pour stocker les documents. BSON est un format JSON encodé en binaire qui permet de stocker des images, des vidéos, du texte, etc. Il est facile d'interagir avec MongoDB en utilisant un pilote spécifique au langage de programmation utilisé.</li>
+                <li>Réplication: Avec la réplication MongoDB, vous pouvez atténuer les risques de défaillance des données en répliquant les données sur plusieurs serveurs. Ces serveurs sont utilisés pour mettre à l'échelle la base de données, récupérer les données et servir de sauvegarde. Grâce à la réplication, il est également possible que le moteur de stockage de la base de données répartisse la charge de lecture sur les différentes répliques.</li>
+                <li>Équilibrage de charge: Un équilibrage de charge adéquat est fondamental pour la gestion de base de données afin d'assurer l'expansion dans les organisations à grande échelle. Avec des milliers voire des millions de flux et de requêtes clients, ils doivent être correctement répartis entre les différents serveurs pour maximiser les performances et réduire la congestion excessive. MongoDB gère efficacement les requêtes de lecture et d'écriture, équilibrant la charge entrante entre ses multiples serveurs et assurant la cohérence des données. Cela signifie qu'avec MongoDB, il n'est pas nécessaire d'utiliser des équilibreurs de charge supplémentaires.</li>
+            </ul>
+            <li class="bold">Forces</li>
+            <ul>
+                <li>Haute Vitesse/Performances : La nature orientée document de MongoDB lui permet d'offrir une vitesse supérieure aux bases de données relationnelles traditionnelles. MongoDB tire parti du cache et de la mémoire vive (RAM), ce qui permet une récupération plus rapide et de meilleures performances. Cependant, cela signifie que vous avez besoin d'un système avec une quantité de RAM décente.</li>
+                <li>Prise en charge des requêtes Ad-hoc : MongoDB prend en charge les requêtes ad-hoc et a optimisé la manière dont ce type de requête est géré. Cela permet des mises à jour en temps réel des requêtes ad-hoc, contrairement aux requêtes de routine.</li>
+                <li>Flexibilité : MongoDB est un système de base de données NoSQL, ce qui le rend adapté à la fois aux données structurées et non structurées. Il est également sans schéma, ce qui signifie que vous pouvez stocker n'importe quel type de données sans être restreint par un schéma.</li>
+            </ul>
+            <li class="bold">Limites</li>
+            <ul>
+                <li>Jointures complexes : MongoDB ne prend pas en charge les jointures comme le ferait une base de données relationnelle, ce qui rend difficile l'association de vos documents stockés. Vous pouvez le réaliser manuellement via du code, mais cela prend du temps et peut affecter les performances.</li>
+                <li>Grande dépendance aux bons index : Si vos index présentent des incohérences ou des erreurs, cela peut avoir un impact négatif sur la vitesse et les performances de MongoDB. Par conséquent, vous devrez passer du temps à corriger et à analyser les index que vous utilisez.</li>
+                <li>Données en double : MongoDB peut souffrir de données en double, ce qui rend difficile la gestion efficace de vos données.</li>
+            </ul>
+        </ol>
+        <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
+   </div>
+   <div class="PostgresSQL">
+       <img src="/img/postgresql_icon.png" alt="PostgresSQL Icon">
+       <p>PostgreSQL est un système de gestion de base de données relationnelle et objet (SGBDRO). C'est un outil libre disponible selon les termes d'une licence de type BSD.</p>
+       <p>Ce système est comparable à d'autres systèmes de gestion de base de données, qu'ils soient libres (comme MariaDB et Firebird), ou propriétaires (comme Oracle, MySQL, Sybase, DB2, Informix et Microsoft SQL Server). Comme les projets libres Apache et Linux, PostgreSQL n'est pas contrôlé par une seule entreprise, mais est fondé sur une communauté mondiale de développeurs et d'entreprises.</p>
+        <img src="/img/Screenshot_MongoDB.png" alt="Mongo DB Screenshot">
+        <p><a href="https://www.postgresql.org/download/linux/ubuntu/" target="_blank" rel="noopener noreferrer">PostgresSQL-downloads</a></p>
+        <a href="#table">Tableau</a>
+        <ol>
+            <li class="bold">Fonctionnalités</li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <li class="bold">Forces</li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <li class="bold">Limites</li>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </ol>
+        <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
+   </div>
+   <div class="tableau">
+        <table id="table">
+            <tr>
+                <th></th>
+                <th>Oracle</th>
+                <th>SQL Server</th>
+                <th>Mongo DB</th>
+                <th>PostgresSQL</th>
+                <th>MySQL</th>
+            </tr>
+            <tr>
+                <td>Norme SQL</td>
+                <td>Entièrement soutenu</td>
+                <td>Il utilise Transact-SQL, ce qui permet de se conformer en partie à la norme ISO/IEC 9075</td>
+                <td>ACID compliant. Utilisation de JSON pour garder les données</td>
+                <td>170/177 caractéristiques supportées</td>
+                <td>Conformité limitée. Pas de prise en charge de certaines fonctions standard</td>
+            </tr>
+            <tr>
+                <td>Coùt U$</td>
+                <td>le prix unitaire d'un processeur de base de données d'Oracle entreprise est de 47 500 $ (de nombreux rabais sont disponibles si l'achat est effectué par l'intermédiaire de distributeurs)</td>
+                <td>Les coûts de licence vont de 3 586 $ pour l'édition Standard à 13 748 $ pour l'édition Enterprise (pour deux cœurs) ; pour le modèle serveur et CAL, il faut compter 899 dollars pour le serveur et 209 dollars par utilisateur (licence unique)</td>
+                <td>512 Mo de RAM partagée gratuite 57 $/mois Stockage de 10GB 2GB RAM</td>
+                <td>Disponible à perpétuité en tant que logiciel libre et gratuit</td>
+                <td>Edition Enterprice 5000 $/par an.  1-4 (cœurs) processeurs + de nombreuses fonctionnalités</td>
+            </tr>
+            <tr>
+                <td>Écrit en</td>
+                <td>Assembly language, C, C++</td>
+                <td>C, C++</td>
+                <td>C++, JavaScript, Python</td>
+                <td>C</td>
+                <td>C, C++</td>
+            </tr>
+            <tr>
+                <td>Mono/multi plateforme (OS)</td>
+                <td>Linux, Windows, Solaris, IBM AIX, HP-UX, OS X</td>
+                <td>Il peut fonctionner sur les systèmes d'exploitation Linux avec prise en charge de Kubernetes ou sur Windows</td>
+                <td>Windows, Linux, OS X, Solaris</td>
+                <td>Il peut être facilement installé sur des environnements Linux</td>
+                <td>Linux, Solaris, macOS, Windows</td>
+            </tr>
+            <tr>
+                <td>Open-source</td>
+                <td>Non</td>
+                <td>Non</td>
+                <td>Oui</td>
+                <td>Oui</td>
+                <td>Oui</td>
+            </tr>
+        </table>
+        <a href="index.html#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
    </div>
 </body>
 </html>
@@ -55,5 +219,8 @@ La base de données Oracle est également connue sous le nom de SGBDR Oracle et,
 
 credit:
 https://www.techopedia.com/definition/8711/oracle-database
+https://fr.wikipedia.org/wiki/PostgreSQL
+https://www.thinkautomation.com/our-two-cents/understanding-the-key-mongodb-pros-and-cons
+
 
 -->
