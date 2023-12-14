@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
+    list-style: none;
 }
 
 
@@ -21,6 +22,7 @@
     left: 20px;
     display: flex;
     align-items: center;
+    border: none;
 }
 
 .icon {
@@ -68,6 +70,37 @@ table, th, td {
 
 .up_icon {
     width: 35px;
+    display: block;
+    margin-left: auto;
+}
+
+.icondb {
+    padding: 20px;
+    width: 10rem;       
+}
+
+.screenshot {
+    padding: 20px;
+    width: 35rem;
+}
+
+.screenshot, .icondb {
+    display: block;
+    margin: auto;
+}
+
+
+div {
+    margin: 20px 45px;
+    border: solid 1px;
+}
+
+p {
+    margin: 10px;
+}
+
+li {
+    padding: 10px;
 }
 /* 
 

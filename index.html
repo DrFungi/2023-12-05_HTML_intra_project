@@ -15,16 +15,16 @@
                 <h1 class="name">David Villegas</h1>
             </div>
             <ul class="menu">
-                <li><a href="#">Oracle</a></li>
-                <li><a href="#">SQL Server</a></li>
-                <li><a href="#">Mongo DB</a></li>
-                <li><a href="#">PostgresSQL</a></li>
-                <li><a href="#">MySQL</a></li>
+                <li><a href="#oracle">Oracle</a></li>
+                <li><a href="#MS_SQL_Server">SQL Server</a></li>
+                <li><a href="#Mongo DB">Mongo DB</a></li>
+                <li><a href="#PostgresSQL">PostgresSQL</a></li>
+                <li><a href="#MySQL">MySQL</a></li>
             </ul>
         </nav>
    </header>
-   <div class="oracle">
-       <img src="/img/oracle-database-logo.png" alt="Oracle Database Icon">
+   <div id="oracle">
+       <img class="icondb" src="/img/oracle-database-logo.png" alt="Oracle Database Icon">
        <p>Oracle Database (Oracle DB) est un système de gestion de base de données 
         relationnelle (SGBDR) d'Oracle Corporation. Développée à l'origine en 1977 
         par Lawrence Ellison et d'autres développeurs, Oracle DB est l'un des moteurs 
@@ -41,9 +41,9 @@
         communications entre les réseaux.        
         La base de données Oracle est également connue sous le nom de SGBDR 
         Oracle et, parfois, simplement sous le nom d'Oracle.</p>
-        <img src="/img/Screenshot-Oracle.png" alt="Oracle Database Screenshot">
+        <img class="screenshot" src="/img/Screenshot-Oracle.png" alt="Oracle Database Screenshot">
         <p><a href="https://www.oracle.com/ca-en/database/technologies/oracle19c-windows-downloads.html" target="_blank" rel="noopener noreferrer">oracle19c-windows-downloads</a></p>
-        <a href="#table">Tableau</a>
+        <p><a href="#table">Tableau</a></p>
         <ol>
             <li class="bold">Fonctionnalités</li>
             <ul>
@@ -66,12 +66,12 @@
         </ol>
         <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
    </div>
-   <div class="MS_SQL_Server">
-       <img src="/img/MS_SQL_Server.png" alt="MS SQL Server Database Icon">
+   <div id="MS_SQL_Server">
+       <img class="icondb" src="/img/MS_SQL_Server.png" alt="MS SQL Server Database Icon">
        <p>Microsoft SQL Server est un système de gestion de base de données (SGBD) en langage SQL incorporant entre autres un SGBDR (SGBD relationnel ») développé et commercialisé par la société Microsoft. Il fonctionne sous les OS Windows et Linux (depuis mars 2016), mais il est possible de le lancer sur Mac OS via Docker, car il en existe une version en téléchargement sur le site de Microsoft.</p>
-        <img src="/img/Screenshot-MS_SQL_Server.png" alt="MS SQL Server Database Screenshot">
+        <img class="screenshot" src="/img/Screenshot-MS_SQL_Server.png" alt="MS SQL Server Database Screenshot">
         <p><a href="https://info.microsoft.com/ww-landing-sql-server-2022.html?culture=en-us&country=us" target="_blank" rel="noopener noreferrer">MS SQL Server-downloads</a></p>
-        <a href="#table">Tableau</a>
+        <p><a href="#table">Tableau</a><p>
         <ol>
             <li class="bold">Fonctionnalités</li>
             <ul>
@@ -94,12 +94,12 @@
         </ol>
         <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
    </div>
-   <div class="Mongo DB">
-       <img src="/img/Mongodb-icon.png" alt="Mongo DB Icon">
+   <div id="Mongo DB">
+       <img class="icondb" src="/img/Mongodb-icon.png" alt="Mongo DB Icon">
        <p>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and current versions are licensed under the Server Side Public License (SSPL). MongoDB is a member of the MACH Alliance.</p>
-        <img src="/img/Screenshot_MongoDB.png" alt="Mongo DB Screenshot">
+        <img class="screenshot" src="/img/Screenshot_MongoDB.png" alt="Mongo DB Screenshot">
         <p><a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">Mongo DB-downloads</a></p>
-        <a href="#table">Tableau</a>
+        <p><a href="#table">Tableau</a></p>
         <ol>
             <li class="bold">Fonctionnalités</li>
             <ul>
@@ -125,31 +125,61 @@
         </ol>
         <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
    </div>
-   <div class="PostgresSQL">
-       <img src="/img/postgresql_icon.png" alt="PostgresSQL Icon">
+   <div id="PostgresSQL">
+       <img class="icondb" src="/img/postgresql_icon.png" alt="PostgresSQL Icon">
        <p>PostgreSQL est un système de gestion de base de données relationnelle et objet (SGBDRO). C'est un outil libre disponible selon les termes d'une licence de type BSD.</p>
        <p>Ce système est comparable à d'autres systèmes de gestion de base de données, qu'ils soient libres (comme MariaDB et Firebird), ou propriétaires (comme Oracle, MySQL, Sybase, DB2, Informix et Microsoft SQL Server). Comme les projets libres Apache et Linux, PostgreSQL n'est pas contrôlé par une seule entreprise, mais est fondé sur une communauté mondiale de développeurs et d'entreprises.</p>
-        <img src="/img/Screenshot_MongoDB.png" alt="Mongo DB Screenshot">
+        <img class="screenshot" src="/img/Screenshot-PostgreSQL.png" alt="PostgresSQL Screenshot">
         <p><a href="https://www.postgresql.org/download/linux/ubuntu/" target="_blank" rel="noopener noreferrer">PostgresSQL-downloads</a></p>
-        <a href="#table">Tableau</a>
+        <p><a href="#table">Tableau</a></p>
         <ol>
             <li class="bold">Fonctionnalités</li>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Contrôle de concurrence multi-version : Cela permet aux utilisateurs de lire et d'écrire simultanément des tables, bloquant uniquement pour les mises à jour simultanées de la même ligne. Le contrôle de concurrence multi-version aide également à éviter les conflits au sein des propriétés de votre serveur.</li>
+                <li>Évolutivité : PostgreSQL prend en charge Unicode, des ensembles de caractères internationaux et un encodage de caractères multi-octets, pouvant être utilisés pour le tri, la sensibilité à la casse et le formatage. PostgreSQL est hautement évolutif et utilisé pour le nombre d'utilisateurs simultanés et la quantité de données qu'il peut gérer.</li>
+                <li>Conformité ACID : PostgreSQL est entièrement conforme à ACID (Atomicité, Cohérence, Isolation, Durabilité), garantissant l'intégrité et la cohérence des données même en cas de plantage du système ou de coupure de courant.</li>
             </ul>
             <li class="bold">Forces</li>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Open source</li>
+                <li>hautement évolutif</li>
+                <li>Largement conforme à la norme SQL</li>
             </ul>
             <li class="bold">Limites</li>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Non disponible sur tous les hôtes par défaut</li>
+                <li>La documentation extensible est uniquement disponible en anglais</li>
+                <li>Vitesse de lecture relativement basse en comparaison</li>
+            </ul>
+        </ol>
+        <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
+   </div>
+   <div id="MySQL">
+       <img class="icondb" src="/img/MySQL-Logo.png" alt="MySQL Icon">
+       <p>MySQL est un système de gestion de base de données relationnelle open source, soutenu par Oracle (RDBMS), basé sur le langage de requête structuré (SQL). Il fonctionne sur pratiquement toutes les plateformes, y compris Linux, UNIX et Windows. Bien qu'il puisse être utilisé dans un large éventail d'applications, MySQL est le plus souvent associé aux applications Web et à la publication en ligne.</p>
+       <p>MySQL est un composant important d'une pile d'entreprise open source appelée LAMP. LAMP est une plateforme de développement web qui utilise Linux comme système d'exploitation, Apache comme serveur web, MySQL comme système de gestion de base de données relationnelle et PHP comme langage de script orienté objet. (Parfois, Perl ou Python est utilisé à la place de PHP.)</p>
+       <p>Initialement conçu par la société suédoise MySQL AB, MySQL a été acquis par Sun Microsystems en 2008, puis par Oracle lorsqu'il a racheté Sun en 2010. Les développeurs peuvent utiliser MySQL sous la licence publique générale GNU (GPL), mais les entreprises doivent obtenir une licence commerciale auprès d'Oracle.</p>
+        <img class="screenshot" src="/img/Screenshot_MySQL.png" alt="MySQL Screenshot">
+        <p><a href="https://dev.mysql.com/downloads/mysql/" target="_blank" rel="noopener noreferrer">MySQL-downloads</a></p>
+        <p><a href="#table">Tableau</a></p>
+        <ol>
+            <li class="bold">Fonctionnalités</li>
+            <ul>
+                <li>MySQL est open-source, ce qui signifie que ce logiciel peut être téléchargé, utilisé et modifié par n'importe qui. Il est gratuit et facile à comprendre. Le code source de MySQL peut être étudié et modifié en fonction des besoins. Il utilise la licence GPL, c'est-à-dire la licence publique générale GNU, qui définit les règles et réglementations concernant ce qui peut ou ne peut pas être fait avec l'application</li>
+                <li>MySQL stocke efficacement les données en mémoire pour garantir la cohérence des données et éviter les redondances. Par conséquent, l'accès et la manipulation des données avec MySQL sont rapides</li>
+                <li>Il contient plusieurs types de données tels que les entiers non signés, les entiers signés, les nombres à virgule flottante (FLOAT), les nombres à virgule double (DOUBLE), les caractères (CHAR), les caractères variables (VARCHAR), le texte, le blob, la date, l'heure, la date et l'heure, le timestamp, l'année, et ainsi de suite.</li>
+            </ul>
+            <li class="bold">Forces</li>
+            <ul>
+                <li>Facile à apprendre – MySQL est relativement simple à apprendre et à utiliser, ce qui en fait un choix populaire pour les développeurs de tous niveaux. Il utilise un langage de requête simple et intuitif, ce qui facilite la récupération et la manipulation des données</li>
+                <li>Compatibilité étendue – MySQL est compatible avec une large gamme de plateformes, notamment Windows, Linux et macOS. Cela signifie qu'il peut être utilisé sur divers appareils, des ordinateurs de bureau aux appareils mobiles.</li>
+                <li>Hautes performances – MySQL est conçu pour des performances élevées, ce qui lui permet de gérer de grandes quantités de données et de trafic sans ralentissement. Il utilise des techniques d'indexation avancées et des mécanismes de mise en cache pour optimiser les performances, en en faisant un choix idéal pour les applications nécessitant un traitement de données en temps réel</li>
+            </ul>
+            <li class="bold">Limites</li>
+            <ul>
+                <li>Scalabilité MySQL peut être difficile à mettre à l'échelle, notamment lorsqu'il s'agit de gérer de grandes quantités de données. Cela est dû à son architecture centralisée, qui peut entraîner des problèmes de performance à mesure que la base de données augmente en taille</li>
+                <li>Complexité MySQL peut être complexe à configurer et à entretenir, nécessitant des connaissances et des compétences spécialisées. Cela peut rendre son utilisation efficace difficile pour les petites organisations ou les particuliers</li>
+                <li>Sécurité MySQL peut être vulnérable aux violations de sécurité, notamment s'il n'est pas configuré correctement ou si les mises à jour ne sont pas appliquées en temps voulu. Cela peut entraîner la perte de données sensibles ou d'autres problèmes de sécurité</li>
             </ul>
         </ol>
         <a href="#P1"><img class="up_icon" src="/img/up_icon.png" alt="up_icon"></a>
@@ -221,6 +251,10 @@ credit:
 https://www.techopedia.com/definition/8711/oracle-database
 https://fr.wikipedia.org/wiki/PostgreSQL
 https://www.thinkautomation.com/our-two-cents/understanding-the-key-mongodb-pros-and-cons
+https://cto.ai/blog/postgresql-features-and-architecture/
+https://www.ionos.ca/digitalguide/server/know-how/postgresql/
+https://www.techtarget.com/searchoracle/definition/MySQL
+https://www.tutorialspoint.com/what-are-the-main-features-of-mysql
 
 
 -->
