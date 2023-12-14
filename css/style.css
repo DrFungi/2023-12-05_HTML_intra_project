@@ -51,8 +51,12 @@
     padding: 0.2rem 0.35rem;
     border-radius: 5px;
     transition: 0.5s ease;
-    /*margin: 0px 10px;*/
     margin: 0rem 0.15rem;
+}
+
+a {
+    text-decoration: dashed;
+    color: #63734b;
 }
 
 .navbar ul li a:hover {
