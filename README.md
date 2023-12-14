@@ -11,3 +11,9 @@ I learned:
 
 I found most rewarding the setting up of the navbar because it allowed me to understand the the flexbox structure in CSS
 A next step for this project would be to build an html file for each database and to format all the contents as flexbox
+
+The code for this project can be seen in the below kink
+https://github.com/DrFungi/2023-12-05_intra_project.git
+
+the web page can be seen in the link below
+https://drfungi.github.io/2023-12-05_intra_project/
